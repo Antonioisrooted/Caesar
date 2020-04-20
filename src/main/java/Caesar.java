@@ -79,5 +79,7 @@ public class Caesar  {
         String text = "This is a message";
         String cipher = encrypt(text, 5);
         System.out.println(cipher);
+        String decrypted = decrypt(cipher,5);
+        System.out.println(decrypted);
     }
 }
