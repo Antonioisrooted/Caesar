@@ -76,10 +76,10 @@ public class Caesar  {
     }
 
     public static void main(String[] args){
-        String text = "This is a message";
-        String cipher = encrypt(text, 5);
+        String text = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
+        String cipher = encrypt(text,3);
         System.out.println(cipher);
-        String decrypted = decrypt(cipher,5);
+        String decrypted = decrypt(cipher,3);
         System.out.println(decrypted);
     }
 }
