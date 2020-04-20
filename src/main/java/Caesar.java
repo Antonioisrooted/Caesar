@@ -13,7 +13,7 @@ public class Caesar  {
             char ch = plainText.charAt(i);
             if(Character.isLetter(ch)){
                 if(Character.isLowerCase(ch)){
-
+                    char c = (char)(ch+shift);
                 }
                 else if(Character.isUpperCase(ch)){
 
